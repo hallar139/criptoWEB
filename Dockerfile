@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Expose port 80 for the web server
-EXPOSE 6000
+EXPOSE 3500
 
 # Start the nginx web server
 CMD ["nginx", "-g", "daemon off;"]
